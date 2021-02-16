@@ -16,9 +16,9 @@ namespace ClassMetotDemo
             Console.WriteLine("Müşteriler Listesi : " + product.Id + " " + product.FirstName);
         }
 
-        public void Delete()
+        public void Delete(Product product)
         {
-            Console.WriteLine("delete");
+            Console.WriteLine("delete : " + product.İl );
         }
     }
 }

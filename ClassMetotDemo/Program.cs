@@ -33,6 +33,9 @@ namespace ClassMetotDemo
             manager.Ekle(product1);
             manager.Ekle(product2);
 
+            Console.WriteLine("--Liste--");
+            manager.List(product1);
+
         }
     }
 }
